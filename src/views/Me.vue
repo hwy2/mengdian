@@ -36,7 +36,7 @@ import imgsrc1 from '@/assets/payment.png'
 import imgsrc2 from '@/assets/receiving.png'
 import imgsrc3 from '@/assets/aftermarket.png'
 import imgsrc4 from '@/assets/indent.png'
-import img1 from '@/assets/shoucang.png'
+import img1 from '@/assets/shoucang2.png'
 import img2 from '@/assets/site.png'
 import img3 from '@/assets/service.png'
 import img4 from '@/assets/guanyu.png'
@@ -90,29 +90,32 @@ export default {
     width: 100%;
     .account {
         width: 100%;
-        height: 300px;
         background-color: #fff;
         .account_warp {
-            height: 200px;
+            height: 150-31.5/2px;
             width: 100%;
             background-color: #ff6634;
+            padding-top: 31.5/2px;
             img {
                 margin: 0 auto;
-                height: 90px;
-                width: 90px;
-                padding-left: 38.9%;
-                padding-top: 12%;
+                height: 152/2px;
+                width: 152/2px;
+                display: block;
+                margin: 0 auto;
+                border:  3px solid #f8976c;
+                border-radius: 50%;
             }
             p {
-                font-size: 18px;
+                font-size: 35/2px;
                 color: #fff;
                 width: 100%;
                 text-align: center;
+                line-height: 1.8;
             }
         }
         .menus {
             width: 100%;
-            height: 100px;
+            height: 90px;
             ul {
                 width: 100%;
                 height: 100%;
@@ -122,7 +125,7 @@ export default {
                     float: left;
                     width: 25%;
                     img {
-                        height: 28px;
+                        height: 27px;
                         margin-left: 32.5%;
                         margin-top: 25%;
                     }
@@ -130,7 +133,7 @@ export default {
                         width: 100%;
                         text-align: center;
                         margin-top: 4px;
-                        font-size: 13px;
+                        font-size: 23/2px;
                     }
                 }
             }
@@ -152,12 +155,14 @@ export default {
                     margin-right: 5%;
                     font-size: 13px;
                     img {
-                        width: 18px;
+                        width: 26/2px;
+                        height: 26/2px;
                         margin-top: 5%;
                         vertical-align: sub;
                     }
                     span {
                         margin-left: 3%;
+                        font-size: 23/2px;
                     }
                     img.icon {
                         float: right;
