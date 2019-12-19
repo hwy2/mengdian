@@ -54,7 +54,7 @@
     </div>
     <dia-log @close="closeDialog" v-if="visible" :commodityId="commodityId"></dia-log>
     <!-- 我是有底线的 -->
-    <div id="baseline">—————————— &nbsp;我是有底线的 &nbsp;——————————</div>
+    <div id="baseline">——— &nbsp;我是有底线的 &nbsp; ———</div>
   </div>
 </template>
 
