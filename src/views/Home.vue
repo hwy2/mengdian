@@ -149,17 +149,12 @@ export default {
   img#md {
     height: 80%;
     padding-top: 5%;
-    // padding-left: 20%;
-  }
-  img#searchicon {
-    height: 40%;
-    float: left;
+    padding-left: 5%;
   }
   img#message {
     height: 25.5px;
     padding-top: 25%;
-    // padding-right: 40%;
-    margin-right: 5%;
+    padding-right: 5%;
   }
 }
 #swipeList {
