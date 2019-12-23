@@ -154,7 +154,7 @@ export default {
   img#message {
     height: 25.5px;
     padding-top: 25%;
-    padding-right: 5%;
+    padding-right: 20%;
   }
 }
 #swipeList {
